@@ -3,7 +3,7 @@ s,z=open('../inputs/3.in').read().split('  '),""
 for w in s:
     for a in w.split():
         r=c.index(a)
-        if r>24:z+=str(r)
+        if r>25:z+=str(r)
         else:z+=chr(r+65)
     z+=' '
 print(z)
